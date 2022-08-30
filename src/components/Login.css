@@ -1,0 +1,121 @@
+.loginBackground {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./login_background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blurLense{
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 75vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0;
+
+  display: flex;
+}
+.loginCard{
+  width: 40%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.484); */
+  background-image: url("./login_background/login_background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginCard>h1{
+  font-size: 330%;
+  margin-bottom: 1.2vh;
+  margin-left: 1.5vw;
+}
+.loginButton{
+  border-radius: 30px;
+  width: 10vw;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.937);
+  color: black;
+}
+.signUpCard{
+  width: 60%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.937);
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.newUserForm{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signUpHeading{
+  /* border: 2px solid black; */
+  width: 85%;
+  font-size: 170%;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.signUpInput{
+  width: 23vw;
+  font-size: 100%;
+  margin-top: 0.3vh;
+  margin-bottom: 0.25vh;
+  padding:0.5vh 0.5vw ;
+  border-radius: 30px;
+  border: none;
+}
+.createButton{
+  margin-top: 2vh;
+  background-color: rgb(37, 37, 37);
+  color: rgb(242, 242, 242);
+  border: none;
+  border-radius: 30px;
+  width: 24vw;
+  font-size: 130%;
+  padding-bottom: 0.7vh;
+}
+.lineContainer{
+  display: flex;
+  margin-bottom: 2vh;
+}
+.line{
+  margin-top: 1vh;
+  height: 0;
+  width: 10vw
+}
+.spotifyButton1{
+  height: 3vh;
+  width: 24vw;
+  background-image: url("./spotify-icons-logos/logos/01_RGB/02_PNG/Spotify_Logo_RGB_Green.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: rgb(37, 37, 37);
+  border-radius: 30px;
+  padding: 0.1vh 0vw;
+  margin-bottom: 2vh;
+  /* border: 2px solid black; */
+}
+  
+  

@@ -1,0 +1,111 @@
+
+.homeContainer{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+.leftBar{
+     height: 100vh;
+     width: 15vw;
+     /* background-color: antiquewhite; */
+     background-color: rgb(38, 38, 38);
+}
+.middleContainer{
+    height: 100vh;
+    width: 82vw;
+    background-color: rgb(25, 25, 25);
+}
+.middleTop{
+    display: flex;
+    margin: 4vh 2vw;
+    margin-bottom: 0.5vw;
+}
+.middleMenu{
+    display: flex;
+    font-size: 65%;
+    color: rgb(145, 145, 145);
+}  
+.rightBarMenu{
+    transform: translateY(4vh);
+}
+.rightBar{
+    height: 100vh;
+    width: 3vw;
+    /* background-color: wheat; */
+    background-color: rgb(38, 38, 38);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeImage{
+    height: 4vh;
+    width: 3vw;
+    background-image: url("./icons/hut.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2vh;
+    filter: invert(0.9);
+}
+.rightBarProfile{
+    transform: translateY(33vh);
+    width: 100%
+}
+.notificationImage{
+    height: 4vh;
+    width: 100%;
+    background-image: url("./icons/bell.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2vh;
+    filter: invert(0.9);
+}
+
+.bookmarkImage{
+    height: 4vh;
+    width: 100%;
+    background-image: url("./icons/bookmark-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2vh;
+    filter: invert(0.9);
+
+}
+.profileButton{
+    height: 4vh;
+    width: 100%;
+    background-image: url("./icons/user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2vh;
+    filter: invert(0.9);
+}
+.profileOptionsB{
+    height: 4vh;
+    width: 100%;
+    background-image: url("./icons/settings.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2vh;
+    filter: invert(0.9);
+}
+.recommendTitCont{
+    border: 2px solid wheat;
+}
+/* .homeImage:hover, .bookmarkImage:hover, .notificationImage:hover{
+    border: 2px solid black
+} */
+/* bookmark credits <a href="https://www.flaticon.com/free-icons/bookmark" title="bookmark icons">Bookmark icons created by Dave Gandy - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/house" title="house icons">House icons created by vectorsmarket15 - Flaticon</a> house
+profile <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+sttinggs <a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Catalin Fertu - Flaticon</a> search
+notification <a href="https://www.flaticon.com/free-icons/notification" title="notification icons">Notification icons created by ghufronagustian - Flaticon</a>
+*/

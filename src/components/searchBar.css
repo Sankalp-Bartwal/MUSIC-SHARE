@@ -1,0 +1,58 @@
+.searchContainer{
+    margin-left: auto;
+    
+}
+.searchInput{
+    /* font-size: 120%; */
+    font-size: 1vw;
+    padding: 1vh;
+    border-radius: 3px;
+    border-style: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 25px;
+    width: 15vw;
+    /* transform: translateY(0.5vh); */
+}
+.searchButton{
+    background-image: url("./icons/search-interface-symbol.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3vh;
+    width: 3vw;
+    background-color: white;
+    border: none;
+}
+.resultBox{
+    /* border: 2px solid black; */
+    max-height: 36vh;
+    overflow-y: auto;
+}
+.resultCard{
+    height: 9vh;
+    width: 15vw;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    background-color: rgb(221, 221, 221);
+    padding: 1vh 1vw;
+    border-radius: 30px;
+}
+.resultBox::-webkit-scrollbar{
+    display: none;
+}
+.searchImage{
+    width: 5vw;
+    height: 9vh;
+}
+.searchInfoContainer{
+    padding-left: 1vw;
+}
+.artistSearch{
+    font-size: 0.9vw;
+}
+.horizontalSearch{
+    margin: 0.5vh 0;
+    width: 9vw;
+}

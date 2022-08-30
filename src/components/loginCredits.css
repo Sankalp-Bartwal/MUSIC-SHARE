@@ -1,0 +1,15 @@
+.creditContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10vh;
+    justify-self: baseline;
+  }
+.credits{
+    color: white;
+    text-decoration: none;
+}
+.credits:visited{
+    color: grey;
+    text-decoration: none;
+}

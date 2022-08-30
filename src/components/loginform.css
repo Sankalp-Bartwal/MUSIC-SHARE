@@ -1,0 +1,41 @@
+.userForm{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.signInHeading{
+    /* border: 2px solid black; */
+    width: 85%;
+    font-size: 110%;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.signInInput{
+    width: 23vw;
+    font-size: 100%;
+    margin-top: 0.3vh;
+    margin-bottom: 0.25vh;
+    padding:0.5vh 0.5vw ;
+    border-radius: 30px;
+    border: none;
+}
+.logInButton{
+    margin-top: 2vh;
+    background-color: rgb(37, 37, 37);
+    color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 30px;
+    width: 24vw;
+    font-size: 130%;
+    padding-bottom: 0.7vh;
+}
+.lineContainer{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.line{
+    margin-top: 1vh;
+    height: 0;
+    width: 10vw
+}

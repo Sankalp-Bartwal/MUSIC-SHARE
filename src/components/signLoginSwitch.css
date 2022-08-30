@@ -1,0 +1,15 @@
+h1{
+    font-size: 330%;
+    margin-bottom: 1.2vh;
+    margin-left: 1.5vw;
+  }
+.loginButton{
+    border-radius: 30px;
+    width: 10vw;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.937);
+    color: black;
+    margin-bottom: 20vh;
+}

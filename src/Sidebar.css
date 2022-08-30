@@ -1,0 +1,32 @@
+.sidebar {
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 50px;
+    padding-top: 40px;
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+    }
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    color: white;
+    left: 50px;
+    padding-left: 130px;
+}
+
+.sidebar_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 8rem;
+}
+
+
+        

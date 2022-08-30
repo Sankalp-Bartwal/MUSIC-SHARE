@@ -1,0 +1,30 @@
+.genreList{
+    display: flex;
+    overflow-x: auto;
+}
+.genreList::-webkit-scrollbar{
+    display: none;
+}
+.genreCard{
+    background-color: rgb(223, 223, 223);
+    margin: 1vh 0.5vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    max-width: 7vw;
+    font-size: large;
+    padding: 0 1vw;
+    border-radius: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+div input[type="radio"]{
+    display: none;
+}
+div input[type="radio"]:checked+.genreCard{
+    background-color: rgb(74, 74, 74);
+    color: rgb(204, 204, 204);
+}

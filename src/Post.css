@@ -1,0 +1,34 @@
+
+
+.post {
+    max-width: 500px;
+    background-color: rgb(19, 19, 19);
+    border: 1px solid white;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.post__text {
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}

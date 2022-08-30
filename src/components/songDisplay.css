@@ -1,0 +1,10 @@
+.songDisplayContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 83vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.songDisplayContainer::-webkit-scrollbar{
+    display: none;
+}

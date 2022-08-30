@@ -1,0 +1,20 @@
+.song__header {
+    display: flex;
+    gap: 10px
+    
+}
+
+.my-btn {
+    border: none;
+    color: rgb(39, 208, 94);
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+}
+
+
+
+
+.recommend-song {
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+}
